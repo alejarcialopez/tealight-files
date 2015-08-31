@@ -1,5 +1,5 @@
 from tealight.logo import move, turn
-
+color("red")
 def polygon(edges, size):
   angle = 360.0 / edges
   for i in range(0, edges):
@@ -7,4 +7,3 @@ def polygon(edges, size):
     turn(angle)
     
 polygon(5,150)
-colour("red")
