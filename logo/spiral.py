@@ -10,4 +10,4 @@ def spiral(size):
   spiral(size + 1)
   
   
-spiral(10)
+spiral(301)
