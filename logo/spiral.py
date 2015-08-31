@@ -5,7 +5,7 @@ def spiral(size):
   if size > 300:
     return
   
-  color("RGB(255,102,0)")
+  color("RGB(255,10,0)")
   move(size)
   turn(120)
   spiral(size + 8)
