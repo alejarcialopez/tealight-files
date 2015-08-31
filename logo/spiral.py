@@ -7,7 +7,7 @@ def spiral(size):
   
   color("RGB(255,102,0)")
   move(size)
-  turn(60)
+  turn(120)
   spiral(size + 1.5)
   
   
