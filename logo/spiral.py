@@ -5,7 +5,7 @@ def spiral(size):
   if size > 300:
     return
   
-  color(10)
+  color("blue")
   move(size)
   turn(60)
   spiral(size + 1)
