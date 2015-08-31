@@ -7,4 +7,4 @@ def polygon(edges, size):
     turn(angle)
     
 polygon(5,150)
-color("red")
+colour("red")
